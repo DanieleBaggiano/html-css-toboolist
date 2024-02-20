@@ -63,14 +63,49 @@
 .main-lista {
     width: 80%;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 3%;
     background-color: #edf2f7;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
+.lista {
+    list-style: none;
+}
+
 .precedenti {
     font-size: 15px;
+    margin-bottom: 1%;
 }
+
+.spunta {
+    color: green;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    margin-right: 1%;
+}
+
+.testo-cancellato {
+    text-decoration: line-through;
+}
+
+.evidenziato {
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.cella {
+    background-color: white;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
