@@ -60,7 +60,7 @@
     border: none;
 }
 
-.main-lista {
+.main-precedenti {
     width: 80%;
     margin: 0 auto;
     padding: 3%;
@@ -73,9 +73,8 @@
     list-style: none;
 }
 
-.precedenti {
+.titolo {
     font-size: 15px;
-    margin-bottom: 1%;
 }
 
 .spunta {
@@ -107,5 +106,42 @@
     padding: 1%;
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    margin: 1%;
 }
 
+.main-oggi {
+    width: 80%;
+    margin: 0 auto;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #edf2f7;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.viola {
+    color: white;
+    background-color: rgb(146, 37, 146);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.x {
+    color: red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    margin-right: 1%;
+}
+
+.verde-acqua {
+    color: white;
+    background-color: rgb(0, 255, 183);
+    border-radius: 15px;
+    padding: 5px;
+}
