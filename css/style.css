@@ -2,4 +2,26 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* header */
+.container{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf2f7;
+}
+
+.logo {
+    text-align: center;
+}
+
+.ombreggiatura {
+    border: none;
+    height: 1px;
+    background: #ccc;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
